@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendrier d'anniversaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="background.png" alt="Image de fond" class="background">
+        <div class="objects">
+            <div class="object" data-number="1" style="top: 5.36%; left: 13.30%;">1</div>
+<div class="object" data-number="2" style="top: 5.91%; left: 21.07%;">2</div>
+<div class="object" data-number="3" style="top: 9.88%; left: 39.16%;">3</div>
+<div class="object" data-number="4" style="top: 14.81%; left: 57.55%;">4</div>
+<div class="object" data-number="5" style="top: 5.36%; left: 67.13%;">5</div>
+<div class="object" data-number="6" style="top: 15.77%; left: 84.90%;">6</div>
+<div class="object" data-number="7" style="top: 2.21%; left: 86.51%;">7</div>
+<div class="object" data-number="8" style="top: 28.91%; left: 15.95%;">8</div>
+<div class="object" data-number="9" style="top: 42.20%; left: 18.56%;">9</div>
+<div class="object" data-number="10" style="top: 29.46%; left: 39.32%;">10</div>
+<div class="object" data-number="11" style="top: 24.80%; left: 48.98%;">11</div>
+<div class="object" data-number="12" style="top: 34.25%; left: 66.83%;">12</div>
+<div class="object" data-number="13" style="top: 40.96%; left: 81.24%;">13</div>
+<div class="object" data-number="14" style="top: 69.36%; left: 38.24%;">14</div>
+<div class="object" data-number="15" style="top: 57.94%; left: 5.80%;">15</div>
+<div class="object" data-number="16" style="top: 40.13%; left: 12.95%;">16</div>
+<div class="object" data-number="17" style="top: 50.13%; left: 28.07%;">17</div>
+<div class="object" data-number="18" style="top: 74.10%; left: 53.65%;">18</div>
+<div class="object" data-number="19" style="top: 64.10%; left: 52.65%;">19</div>
+<div class="object" data-number="20" style="top: 89.17%; left: 71.40%;">20</div>
+<div class="object" data-number="21" style="top: 61.78%; left: 91.20%;">21</div>
+<div class="object" data-number="22" style="top: 74.37%; left: 6.66%;">22</div>
+<div class="object" data-number="23" style="top: 63.96%; left: 17.56%;">23</div>
+<div class="object" data-number="24" style="top: 79.10%; left: 52%;">24</div>
+<div class="object" data-number="25" style="top: 73.68%; left: 44.12%;">25</div>
+<div class="object" data-number="26" style="top: 82.04%; left: 56.28%;">26</div>
+<div class="object" data-number="27" style="top: 76.01%; left: 80.62%;">27</div>
+<div class="object" data-number="28" style="top: 49.30%; left: 73.08%;">28</div>
+<div class="object" data-number="29" style="top: 82.20%; left: 0.20%;">29</div>
+<div class="object" data-number="30" style="top: 75.31%; left: 23.89%;">30</div>
+<div class="object" data-number="31" style="top: 88.05%; left: 30.41%;">31</div>
+<div class="object" data-number="32" style="top: 84.08%; left: 37.02%;">32</div>
+<div class="object" data-number="33" style="top: 92.03%; left: 57.84%;">33</div>
+<div class="object" data-number="34" style="top: 66.96%; left: 59.83%;">34</div>
+<div class="object" data-number="35" style="top: 85.75%; left: 43.03%;">35</div>
+
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <span class="close" id="close">&times;</span>
+        <div class="modal-content">
+            <img id="cave-image" class="modal-image" src="cave.png">
+            <div id="quiz-container" class="quiz-container">
+                <p id="question-text"></p>
+                <input type="text" id="answer-input" placeholder="Votre réponse">
+                <button id="submit-answer">Valider</button>
+            </div>
+            <img id="gift-image" class="modal-image" style="display:none;">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
